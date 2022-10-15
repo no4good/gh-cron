@@ -4,7 +4,7 @@ name: First Cron Job
        # Controls when the workflow will run
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "1/5 * * * *"
 
 jobs:
   # This workflow contains a single job called "cron"
